@@ -12,5 +12,14 @@
   + public getAllStudents(Student):List<Student>
    + public deleteStudent(Long):void
    + public addStudent(Long):void
-     
+## steps
+First Go to Your StudetRepository presss Shift + ctrl + t to create a StudentRepoTest Class
+
+@Test = to denine it is a test method
+```bash
+@Autowired
+private StudentRep studentRepo;
++ Implement given + when + then
+```bash
+
 
