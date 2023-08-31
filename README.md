@@ -20,6 +20,6 @@ First Go to Your StudetRepository presss Shift + ctrl + t to create a StudentRep
 @Autowired
 private StudentRep studentRepo;
 + Implement given + when + then
-```bash
+```
 
 
