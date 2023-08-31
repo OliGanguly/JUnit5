@@ -3,8 +3,14 @@
 ## Student Repo
 + selectExistsBtEmail(String):Boolean
 ## Student Service
--  - StudenrRepo studentRepo
-   + getAllStudents(Student):List<Student>
-   + deleteStudent(Long):void
-   + addStudent(Long):void
+   + private StudenrRepo studentRepo
+   + public getAllStudents(Student):List<Student>
+   + public deleteStudent(Long):void
+   + public addStudent(Long):void
+## Collection
+   + private StudentService studentService;
+  + public getAllStudents(Student):List<Student>
+   + public deleteStudent(Long):void
+   + public addStudent(Long):void
+     
 
