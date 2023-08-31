@@ -20,6 +20,19 @@ First Go to Your StudetRepository presss Shift + ctrl + t to create a StudentRep
 @Autowired
 private StudentRep studentRepo;
 + Implement given + when + then
+
+@Test
+    void itShouldCheckStudentExistsByEmail() {
+        //given
+        String email ="oli28@gamil.com";
+        Student student = new Student("Oli","oli28@gmail.com",Gender.FEMALE);
+        studentRepositoryUnderTest.save(student);
+        //when
+        Boolean expected = studentRepositoryUnderTest.selectExistsEmail(email);
+        //then
+        assertThat(expected).isTrue();
+    }
 ```
+
 
 
